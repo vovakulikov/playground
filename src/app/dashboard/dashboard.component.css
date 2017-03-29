@@ -1,0 +1,22 @@
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+}
+.grid a {
+  min-height: 80px;
+  background: brown;
+  color: white;
+  text-align: center;
+  margin:10px;
+  flex-basis: 150px;
+  vertical-align: middle;
+  display: table-cell;
+  vertical-align: middle;
+  display: flex;
+  text-decoration: none;
+}
+
+.grid a span {
+  margin: auto;
+
+}
