@@ -9,7 +9,7 @@ import { HeroService } from './shared/hero.service';
 import { HeroesComponent } from './heroes/heroes.component';
 
 
-import { RouterModule }   from '@angular/router';
+import { HighlightDirective } from "./highlight.directive"
 import { DashboardComponent } from './dashboard/dashboard.component';
 
 import { AppRoutingModule }     from './app-routing.module';
@@ -21,7 +21,8 @@ import { AppRoutingModule }     from './app-routing.module';
     AppComponent,
     HeroDetailsComponent,
     HeroesComponent,
-    DashboardComponent
+    DashboardComponent,
+    HighlightDirective
   ],
   imports: [
     BrowserModule,

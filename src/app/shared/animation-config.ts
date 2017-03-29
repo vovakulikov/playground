@@ -11,12 +11,11 @@ function smooth(){
       transition(":enter", [
         style({
           opacity: 0,
-          transform: "translateX(10px)",
-          transition: 'opacity 200ms ease 0s, transform 300ms ease-in-out 0s '
+          transform: "translateX(20px)",
         }),
-        animate('0s', style({
+        animate('250ms ease)', style({
           opacity: 1,
-          transform: "translateX(0)"
+          transform: "translateX(0px)",
         }))
       ]),
       transition(":leave", [

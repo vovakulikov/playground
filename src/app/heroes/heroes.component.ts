@@ -19,6 +19,7 @@ import { getAnimationConfig } from './../shared/animation-config';
 export class HeroesComponent {
   title = 'Tour of hero: ';
   heroes: Hero[];
+  color:string = 'red'
   constructor(private heroService: HeroService,
               private router: Router) { }
 

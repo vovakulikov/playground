@@ -15,7 +15,7 @@ import { getAnimationConfig } from './../shared/animation-config';
   },
 })
 export class DashboardComponent implements OnInit {
-
+  color : string = 'red';
   heroes: Hero[];
   constructor(private heroService: HeroService) { }
 
